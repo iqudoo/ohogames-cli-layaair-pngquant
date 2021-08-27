@@ -1,0 +1,36 @@
+{
+  "name": "ohogames-cli-layaair-pngquant",
+  "version": "0.0.1",
+  "description": "ohogames-cli-layaair pngquant plugin",
+  "main": "",
+  "scripts": {
+    "test": "echo 'no tests'",
+    "preversion": "npm test",
+    "version": "git add -A plugin.js",
+    "postversion": "echo 'no postversion'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqudoo/ohogames-cli-layaair-pngquant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqudoo/ohogames-cli-layaair-pngquant/issues"
+  },
+  "homepage": "https://github.com/iqudoo/ohogames-cli-layaair-pngquant#readme",
+  "keywords": [
+    "ohogames",
+    "ohogames-cli",
+    "ohogames-cli-layaair",
+    "ohogames-cli-layaair-pngquant"
+  ],
+  "files": [
+    "utils",
+    "plugin.js"
+  ],
+  "dependencies": {
+    "gulp": "4.0.0",
+    "gulp-pngquant": "1.0.12"
+  }
+}
